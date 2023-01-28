@@ -1,0 +1,450 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #ebeff4;
+}
+.imd1 img  {
+    width: 45%;
+    height: auto;
+    position: absolute;
+    left: 55%;
+    z-index: 1;
+}
+.container {
+    width: 90%;
+    margin: auto;
+}
+/*header*/
+header .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.left {
+    z-index: 2;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2%;
+}
+.left h3 {
+    font-size: 15px;
+    color: #1d0fa1;
+}
+.left .circle {
+    width: 15px;
+    height: 15px;
+    background-color: #170dd8;
+    border: 1px solid #1d0fa1;
+    border-radius: 100%;
+}
+.right {
+    z-index: 2;
+}
+.right a button {
+    color: white;
+    background-color: #1916e7;
+    border: none;
+    outline: none;
+    padding: 8%;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+}
+/*main*/
+main {
+    margin-top: 200px;
+    margin-bottom: 30px;
+}
+.container2 {
+    width: 80%;
+    margin: auto;
+}
+main .container2 h5 {
+    color: #7b7e8e;
+    margin-bottom: 20px;
+}
+main .container2 h1 {
+    font-size: 45px;
+    font-weight: 200;
+}
+main .container2 h1 span {
+    font-weight: bold;
+}
+main .container2 .kadr {
+    width: 55%;
+    z-index: 3;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15px 20px;
+    margin-top: 30px;
+    border-radius: 15px;
+    background-color: white;
+}
+main .container2 .kadr input {
+    z-index: 3;
+    font-size: 15px;
+    width: calc(100% - 15%);
+    color: #7b7e8e;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+}
+main .container2 .kadr input:focus {
+    border: white;
+    outline: white;
+}
+main .container2 .kadr a {
+    z-index: 3;
+    cursor: pointer;
+}
+main .container2 .kadr a button {
+    z-index: 3;
+    width: 15%;
+    color: #1d1e6f;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: white;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.line3 {
+    height: 50px;
+    background-color: #d8e0e7;
+    margin-top: 100px;
+}
+
+
+/*line3*/
+.line3 .container2{
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /*border: 1px solid salmon;*/
+}
+
+    .search-container {
+        
+      }
+      
+     input[type=email] {
+        padding: 6px;
+        margin-top: 8px;
+        font-size: 17px;
+        border: none;
+        border-radius: 5px 0 0 5px ;
+        
+      }
+      
+     .search-container button {
+        float: right;
+        padding: 6px;
+        margin-top: 8px;
+        margin-right: 16px;
+        background-color: white;
+        font-size: 17px;
+        border: none;
+        cursor: pointer;
+        border-radius: 0 5px 5px 0;
+        color:#170f61;
+        font-weight: bold;
+        border-left: 1px solid #dadee7;
+        border: none;
+
+        
+        
+      }
+      
+     .search-container button:hover {
+        background: #ccc;
+
+      }
+      input[type=email]:focus {
+        outline: none;
+
+         }
+      .left2 {
+        margin-top: 8px;
+      }
+      .left2 p span{
+        font-weight: bold;
+
+      }
+ 
+/*line4*/
+.line4 {
+    margin-top: 100px;
+}
+.line4 .container2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10%;
+}
+.line4 .container2 .left3 {
+    width: 50%;
+}
+.line4 .container2 .right3 {
+    width: 50%;
+}
+.line4 .container2 .part-1 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    gap: 2%;
+    margin-bottom: 30px;
+}
+.line4 .container2 img {
+    width: 100px;
+    height: 100px;
+    margin-right: 20px; 
+}
+.line4 .container2 .part-1 h2 {
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.line4 .container2 .part-1 h3 {
+    color: #78798d;
+    font-weight: normal;
+}
+.line4 .container2 .right3 h1 {
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+.line4 .container2 .right3 hr {
+    width: 25%;
+    margin-bottom: 20px;
+}
+.line4 .container2 .right3 h3 {
+    margin-bottom: 20px;
+    color: #78798d;
+    font-weight: normal;
+}
+/*line5*/
+.line-5 {
+    text-align: center;
+    margin-top: 200px;
+}
+.line-5 h5.h5 {
+    margin-bottom: 5px;
+}
+.line-5 h2 {
+    margin-bottom: 25px;
+}
+.line-5 .boxes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5%;
+}
+.line-5 .boxes .box {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    gap: 2%;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+.line-5 .boxes .box .top {
+    color: white;
+    background-color: #0c18dc;
+    padding: 10px;
+    border-bottom: 1px solid gray;
+}
+.line-5 .boxes .box .top h3 {
+    margin-bottom: 5px;
+    text-shadow: .1px .1px 1px black;
+}
+.line-5 .boxes .box .top h5 {
+    color: #7356ff;
+    text-shadow: .1px .1px 1px black;
+}
+.line-5 .boxes .box .center {
+    padding: 40px 10px;
+}
+.line-5 .boxes .box .button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 10px;
+    border-top: 1px solid gray;
+}
+.line-5 .boxes .box .center-1 {
+    padding: 20px 10px;
+}
+.line-5 .boxes .box h1.h1-60 {
+    color: #ff5618;
+}
+
+/*line6*/
+
+.line6{
+    margin-top: 50px;
+    position: relative;
+}
+.line6 h5 {
+    text-align: center;
+    color: gray;
+    margin-bottom: 15px;
+}
+.line6 h2{
+    text-align: center;
+}
+.color{
+    width: 100%;
+    height:120px;
+    margin-top: 100px;
+    background-color: blueviolet;
+}
+.box3 {
+    width: 29%;
+    height: 140px;
+    position: absolute;
+    right: 499px;
+    top: 127px;
+    border: 5p;
+    border-radius: 5px;
+    background-color: #f1f0f0;
+    box-shadow: rgb(0 0 0 / 25%) 0px 14px 28px, rgb(0 0 0 / 22%) 0px 10px 10px;
+}
+.box4 {
+    width: 25%;
+    height: 155px;
+    position: absolute;
+    right: 526px;
+    top: 119px;
+    border: 5p;
+    border-radius: 3px;
+    background-color: #f1f0f0;
+    box-shadow: rgb(0 0 0 / 25%) 0px 14px 28px, rgb(0 0 0 / 22%) 0px 10px 10px;
+}
+/*media*/
+@media screen and (max-width: 878px ){
+    .line3 .container2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    } 
+    .line3 .left2 {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .line3 p{
+        text-align: center;
+    }
+    .line3 .left2 h3 {
+        font-size: 22px;
+        text-align: center;
+    }
+    .line3 {
+        padding: 10px 0;
+    }  
+
+    input[type=email] {
+        width: calc(100% - 150px);
+        color: #170f61;
+    }
+    .search-container button{
+        width: 150px;
+        margin-right: 0;
+    }
+
+}
+@media screen and (max-width: 768px) {
+    .container2 {
+        width: 85%;
+    }
+    img {
+        width: 50%;
+        left: 50%;
+    }
+    .left .circle {
+        width: 13px;
+        height: 13px;
+    }
+    .right a button {
+        font-size: 13px;
+    }
+    .left h3 {
+        font-size: 13px;
+    }
+   .line4 .container2 {
+    flex-direction: column;
+   }
+   .line4 .container2 .left3 {
+    width: 100%;
+}
+.line4 .container2 .right3 {
+    width: 100%;
+}
+.line-5 .boxes {
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+}
+.line-5 .boxes .box {
+    width: 70%;
+}
+
+}      
+@media screen and (max-width: 475px) {
+    img {
+        width: 55%;
+        left: 45%;
+    }
+    .left .circle {
+        width: 11px;
+        height: 11px;
+    }
+    .right a button {
+        font-size: 11px;
+    }
+    .left h3 {
+        font-size: 11px;
+    }
+    .line3 .container2{
+        flex-direction: column;
+      
+    }
+}  
+@media screen and (max-width: 325px) {
+    img {
+        width: 60%;
+        left: 40%;
+    }
+    .left .circle {
+        width: 9px;
+        height: 9px;
+    }
+    .right a button {
+        font-size: 9px;
+    }
+    .left h3 {
+        font-size: 9px;
+    }
+}  
+@media screen and (max-width: 320px) {
+    .right a button {
+        font-size: 7px;
+    }
+    .left h3 {
+        font-size: 7px;
+    } 
+} 
+@media screen and (max-width: 244px) {
+    .right a button {
+        font-size: 5px;
+    }
+    .left h3 {
+        font-size: 5px;
+    } 
+}
